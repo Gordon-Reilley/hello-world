@@ -1,0 +1,32 @@
+header {
+    text-align: center;
+}
+
+body {
+    background-color: darkgrey; 
+}
+
+nav {
+    text-align: center;
+}
+
+#section-one {
+    background-color: red;
+    text-align: center; 
+}
+
+#section-two {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#section-three {
+    background-color: red;
+    text-align: center;
+}
+
+img.image-one {
+    max-width: 150%;
+    height: auto;
+}
