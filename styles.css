@@ -21,6 +21,10 @@ a {
     display: inline-block;
 }
 
+a:hover {
+    background-color: red;
+}
+
 #section-one {
     background-color: red;
     text-align: center;
