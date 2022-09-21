@@ -27,6 +27,19 @@ nav {
 }
 
 img.image-one {
-    max-width: 150%;
-    height: auto;
+    max-width: auto;
+    height: 800px;
+    width: 1887px;
+}
+
+img.image-two {
+    max-width: auto;
+    height: 1000px;
+    width: 1887px;
+}
+
+img.image-three {
+    max-width: auto;
+    height: 800px;
+    width: 1887px;
 }
