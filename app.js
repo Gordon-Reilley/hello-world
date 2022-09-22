@@ -26,6 +26,29 @@ function welcomeQuestion(){
 
 welcomeQuestion();
 
+function gameTime(){
+    let times = prompt("How many days a week do you play video games?");
+    console.log(times);
+
+    for (let i = 0; i < times; i++){
+    console.log(i);
+    document.write("<img style='width:20px;' src='https://assets-prd.ignimgs.com/2022/06/10/pc-controller-2-1654886681557.jpg?width=1280' alt='game controllers'/>");
+    }
+}
+
+gameTime();
+
+function animal(){
+    let animalGuess = prompt("what is the most commonly featured animal in video games?");
+    console.log(animalGuess)
+
+    while (animalGuess !== "dog"){
+        animalGuess = prompt("close but no dice, try again!");
+    }
+}
+
+animal();
+
 function confirm_alert() {
     var youSure = "Click OK if you want to see the best games of 2022!";
     var go = "https://burmpf.github.io/hello-world/";
